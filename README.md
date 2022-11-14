@@ -10,3 +10,4 @@ Guide Sections Completed:
 - [x] 2. [What is Rails](https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark)
 - [x] 3. [Creating a New Rails Project](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project)
 - [x] 4. [Hello, Rails!](https://guides.rubyonrails.org/getting_started.html#hello-rails-bang)
+- [x] 5. [Autoloading](https://guides.rubyonrails.org/getting_started.html#autoloading)
