@@ -6,6 +6,6 @@ Note: PostgreSQL has been used as the dtabase for this app instead of the defaul
 
 Guide Sections Completed:
 
-[x] 1. Guide Assumptions
-[x] 2. What is Rails
-[x] 3. Creating a New Rails Project
+- [x] 1. Guide Assumptions
+- [x] 2. What is Rails
+- [x] 3. Creating a New Rails Project
