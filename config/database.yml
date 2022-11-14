@@ -20,6 +20,9 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  # note: you would normally not save a username & pw in a git tracked file
+  username: blog
+  password: demon
 
 development:
   <<: *default
