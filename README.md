@@ -11,3 +11,4 @@ Guide Sections Completed:
 - [x] 3. [Creating a New Rails Project](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project)
 - [x] 4. [Hello, Rails!](https://guides.rubyonrails.org/getting_started.html#hello-rails-bang)
 - [x] 5. [Autoloading](https://guides.rubyonrails.org/getting_started.html#autoloading)
+- [x] 6. [MVC and You](https://guides.rubyonrails.org/getting_started.html#mvc-and-you)
