@@ -2,7 +2,7 @@
 
 Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) guide for v7.0.4
 
-Note: PostgreSQL has been used as the dtabase for this app instead of the default database (SQLite). To clone this repo and use this code, you will need to install [PostgreSQL](https://www.postgresql.org/download/) and configure it on your machine. I am using [OS X](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos).
+**Note:** PostgreSQL has been used as the database for this app instead of the default database (SQLite). To clone this repo and use this code, you will need to install [PostgreSQL](https://www.postgresql.org/download/) and configure it on your machine. I am using [OS X](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos).
 
 Guide Sections Completed:
 
