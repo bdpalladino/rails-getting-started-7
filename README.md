@@ -14,6 +14,7 @@ Guide Sections Completed:
 - [x] 6. [MVC and You](https://guides.rubyonrails.org/getting_started.html#mvc-and-you)
 - [x] 7. [CRUDit Where CRUDit Is Due](https://guides.rubyonrails.org/getting_started.html#crudit-where-crudit-is-due)
 - [x] 8. [Adding a Second Model](https://guides.rubyonrails.org/getting_started.html#adding-a-second-model)
+- [x] 9. [Refactoring](https://guides.rubyonrails.org/getting_started.html#refactoring)
 
 
 ##Useful Rails Commands:
@@ -38,12 +39,21 @@ rails generate model ModelName <list properties and their datatypes, references 
 # run data migrations
 rails db:migrate
 
+# add db migration and change model
+rails generate migration MigrationName <properties to be added, removed or updated>
+# ex: generate migration AddStatusToComments status:string
+
 # start interactive console session
 rails console
+
+# run automated tests
+rails test
 ```
 
 ##Useful Links
 
 [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html): covers Active Record essentials
+[Instance Variables](https://www.rubyguides.com/2019/07/ruby-instance-variables/): variables with the '@' prefix are instance variables
+[DRY software development](https://medium.com/0xcode/dry-dont-repeat-yourself-avoiding-redundancy-in-software-programming-e264ec97276e)
 
 
