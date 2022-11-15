@@ -13,3 +13,37 @@ Guide Sections Completed:
 - [x] 5. [Autoloading](https://guides.rubyonrails.org/getting_started.html#autoloading)
 - [x] 6. [MVC and You](https://guides.rubyonrails.org/getting_started.html#mvc-and-you)
 - [x] 7. [CRUDit Where CRUDit Is Due](https://guides.rubyonrails.org/getting_started.html#crudit-where-crudit-is-due)
+- [x] 8. [Adding a Second Model](https://guides.rubyonrails.org/getting_started.html#adding-a-second-model)
+
+
+##Useful Rails Commands:
+```
+# create new rails app
+rails new appname
+
+# start rails
+rails server
+
+# show routes
+rails routes
+
+# add a new controller
+rails generate controller ControllerName optional_pages/actions
+# ex: rails generate controller Articles index
+
+# add a new model
+rails generate model ModelName <list properties and their datatypes, references to other models>
+# example: rails generate model Comment commenter:string body:text article:references
+
+# run data migrations
+rails db:migrate
+
+# start interactive console session
+rails console
+```
+
+##Useful Links
+
+[Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html): covers Active Record essentials
+
+
