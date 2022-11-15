@@ -15,6 +15,7 @@ Guide Sections Completed:
 - [x] 7. [CRUDit Where CRUDit Is Due](https://guides.rubyonrails.org/getting_started.html#crudit-where-crudit-is-due)
 - [x] 8. [Adding a Second Model](https://guides.rubyonrails.org/getting_started.html#adding-a-second-model)
 - [x] 9. [Refactoring](https://guides.rubyonrails.org/getting_started.html#refactoring)
+- [x] 10. [Deleting Comments](https://guides.rubyonrails.org/getting_started.html#deleting-comments)
 
 
 ##Useful Rails Commands:
