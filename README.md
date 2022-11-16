@@ -16,6 +16,7 @@ Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, 
 - [x] 8. [Adding a Second Model](https://guides.rubyonrails.org/getting_started.html#adding-a-second-model)
 - [x] 9. [Refactoring](https://guides.rubyonrails.org/getting_started.html#refactoring)
 - [x] 10. [Deleting Comments](https://guides.rubyonrails.org/getting_started.html#deleting-comments)
+- [x] 11. [Security](https://guides.rubyonrails.org/getting_started.html#security)
 
 ## Useful Rails Commands:
 ```
