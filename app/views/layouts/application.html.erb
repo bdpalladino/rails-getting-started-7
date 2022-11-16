@@ -11,7 +11,11 @@
   </head>
 
   <body>
+    <%# logo and link to home will appear on all pages%>
+    <%= image_tag "rails-logo.jpg" %>
+    <br/> 
     <%= link_to "Home", "/" %>
+    <%# yeild tag below is for displaying the contents of each page in the app%>
     <%= yield %>
   </body>
 </html>
