@@ -2,7 +2,10 @@
 
 Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html) guide for v7.0.4
 
-**Note:** PostgreSQL has been used as the database for this app instead of the default database (SQLite). To clone this repo and use this code, you will need to install [PostgreSQL](https://www.postgresql.org/download/) and configure it on your machine. I am using [OS X](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos).
+**Note:** PostgreSQL has been used as the database for this app instead of the default database (SQLite). To clone this repo and use this code, you will need to install [PostgreSQL](https://www.postgresql.org/download/) and configure it on your machine:
+- [OS X](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos)
+- [Windows](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql/)
+- [Linux](https://www.postgresqltutorial.com/postgresql-getting-started/install-postgresql-linux/)
 
 ## Guide Sections Completed:
 
@@ -54,7 +57,7 @@ rails test
 ## Useful Links
 
 [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html): covers Active Record essentials
+
 [Instance Variables](https://www.rubyguides.com/2019/07/ruby-instance-variables/): variables with the '@' prefix are instance variables
+
 [DRY software development](https://medium.com/0xcode/dry-dont-repeat-yourself-avoiding-redundancy-in-software-programming-e264ec97276e)
-
-
