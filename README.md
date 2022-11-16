@@ -58,6 +58,8 @@ rails test
 
 [Active Record Basics](https://guides.rubyonrails.org/active_record_basics.html): covers Active Record essentials
 
+[Asset Pipeline](https://guides.rubyonrails.org/asset_pipeline.html): how rails loads images, css, scripts etc
+
 [Instance Variables](https://www.rubyguides.com/2019/07/ruby-instance-variables/): variables with the '@' prefix are instance variables
 
 [DRY software development](https://medium.com/0xcode/dry-dont-repeat-yourself-avoiding-redundancy-in-software-programming-e264ec97276e)
