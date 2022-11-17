@@ -25,6 +25,7 @@ Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, 
 - Added logo and link to home page to app header
 - Added basic css
 - Added user authentication with the [Devise](https://github.com/heartcombo/devise) gem
+- Added [RSpec](https://rspec.info/documentation/5.0/rspec-rails/) for automated testing
 
 ## Useful Rails Commands:
 ```
