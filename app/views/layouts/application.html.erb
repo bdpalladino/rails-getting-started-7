@@ -15,6 +15,12 @@
     <%= image_tag "rails-logo.jpg" %>
     <br/> 
     <%= link_to "Home", "/" %>
+    <br/>
+    
+    <%# flash message tags added for devise%>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
     <%# yield tag below is for displaying the contents of each page in the app%>
     <%= yield %>
   </body>

@@ -21,6 +21,11 @@ Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, 
 - [x] 10. [Deleting Comments](https://guides.rubyonrails.org/getting_started.html#deleting-comments)
 - [x] 11. [Security](https://guides.rubyonrails.org/getting_started.html#security)
 
+## Additional Enhancments
+- Added logo and link to home page to app header
+- Added basic css
+- Added user authentication with the [Devise](https://github.com/heartcombo/devise) gem
+
 ## Useful Rails Commands:
 ```
 # create new rails app
