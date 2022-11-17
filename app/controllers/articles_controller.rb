@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
-  http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+  # rails basic auth used in the getting started guide - replaced with devise gem
+  # http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
   
   def index
     @articles = Article.all

@@ -1,5 +1,6 @@
 class CommentsController < ApplicationController
-  http_basic_authenticate_with name: "dhh", password: "secret", only: :destroy
+  # rails basic auth used in the getting started guide - replaced with devise gem
+  # http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
   
   def create
     @article = Article.find(params[:article_id])
