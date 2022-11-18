@@ -25,7 +25,7 @@ Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, 
 - Added logo and link to home page to app header
 - Added basic css
 - Added user authentication with the [Devise](https://github.com/heartcombo/devise) gem
-- Added [RSpec](https://rspec.info/documentation/5.0/rspec-rails/) for automated testing
+- Added [RSpec](https://rspec.info/documentation/5.0/rspec-rails/) for automated testing and sample unit tests for the Article model in `spec/models/article_spec.rb`
 
 ## Useful Rails Commands:
 ```
@@ -56,8 +56,11 @@ rails generate migration MigrationName <properties to be added, removed or updat
 # start interactive console session
 rails console
 
-# run automated tests
+# run automated tests - run minitest test
 rails test
+
+# run rspec tests
+rspec
 ```
 
 ## Useful Links
