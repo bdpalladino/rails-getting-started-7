@@ -1,0 +1,3 @@
+# add custom rubocop rules here
+
+require: rubocop-rails
