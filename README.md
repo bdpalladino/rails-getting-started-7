@@ -26,6 +26,7 @@ Creating the sample Blog app used as a learning exercise in the  Ruby on Rails, 
 - Added basic css
 - Added user authentication with the [Devise](https://github.com/heartcombo/devise) gem
 - Added [RSpec](https://rspec.info/documentation/5.0/rspec-rails/) for automated testing and sample unit tests for the Article model in `spec/models/article_spec.rb`
+- Added [byebug](https://github.com/deivid-rodriguez/byebug) gem for enhanced debugging
 
 ## Useful Rails Commands:
 ```
