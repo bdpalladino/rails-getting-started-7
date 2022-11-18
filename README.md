@@ -58,11 +58,14 @@ rails generate migration MigrationName <properties to be added, removed or updat
 # start interactive console session
 rails console
 
-# run automated tests - run minitest test
+# run automated tests - run minitest tests
 rails test
 
 # run rspec tests
 rspec
+
+# run rubocop for linting
+rubocop
 ```
 
 ## Useful Links
