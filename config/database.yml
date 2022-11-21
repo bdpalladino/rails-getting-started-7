@@ -21,6 +21,8 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   # note: you would normally not save a username & pw in a git tracked file
+  # note: needed to give this user superuser status in pg to avoid this error: 
+  #   https://stackoverflow.com/questions/43989670/error-generating-fixtures-rails-was-not-able-to-disable-referential-integrity
   username: blog
   password: demon
 
