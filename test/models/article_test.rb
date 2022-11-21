@@ -8,3 +8,6 @@ class ArticleTest < ActiveSupport::TestCase
     assert_not article.save, 'Saved the article without a title'
   end
 end
+
+# Reference:
+# https://guides.rubyonrails.org/testing.html
