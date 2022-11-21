@@ -1,3 +1,10 @@
 # add custom rubocop rules here
 
 require: rubocop-rails
+
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+    - 'spec/models/*.rb'
