@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Article model class definition
 class Article < ApplicationRecord
   include Visible
@@ -10,7 +12,7 @@ class Article < ApplicationRecord
 
   # Returns a summary (title + 1st 10 characters of body)
   def article_summary
-    "#{title}: #{body[0,10]}..."
+    "#{title}: #{body[0, 10]}..."
   end
 end
 
